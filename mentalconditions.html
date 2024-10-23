@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Conditions</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+        .big-logo {
+            width: 500px;
+            height: auto;
+        }
+        .conditions-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .conditions-title {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        .condition-img {
+            width: 150px;
+            height: 45;
+            margin-bottom: 15px;
+        }
+        .condition-links a {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (same as previous pages) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="firstsupport.html">First Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howtohelp.html">How to Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mentalconditions.html">Mental Conditions</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>  
+        </div>
+    </nav>
+
+    <!-- Mental Health Conditions Section -->
+    <div class="container conditions-section">
+        <h1 class="conditions-title">Mental Health Conditions</h1>
+
+        <div class="row justify-content-center condition-links">
+            <div class="col-md-3">
+                <img src="adhd.webp" alt="ADHD" class="condition-img">
+                <br>
+                <a href="adhd.html" class="btn btn-primary">ADHD</a>
+            </div>
+            <div class="col-md-3">
+                <img src="depression.jpg" alt="Depression" class="condition-img">
+                <br>
+                <a href="depression.html" class="btn btn-primary">Depression</a>
+            </div>
+            <div class="col-md-3">
+                <img src="bippolar.webp" alt="Bipolar Disorder" class="condition-img">
+                <br>
+                <a href="bipolar.html" class="btn btn-primary">Bipolar Disorder</a>
+            </div>
+            <div class="col-md-3">
+                <img src="anxiety.png" alt="Anxiety" class="condition-img">
+                <br>
+                <a href="anxiety.html" class="btn btn-primary">Anxiety</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
